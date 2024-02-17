@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.11.2.75"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="ConfigRadius">
+  <Property Name="BackColor" Value="238"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Index" Value="4"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+  <Property Name="Width" Value="800"/>
+  <Layers>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="800"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <TextLayer LanguageId="es-MX"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="50"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="20"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="130"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height7]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="60"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="181"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height6]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_7">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="150"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="110"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="232"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height5]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="205"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="160"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="283"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height4]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="260"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="210"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="334"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height3]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="310"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="270"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="385"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height2]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[MpPads]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
+          <Property Name="Left" Value="516"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="370"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="320"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpOutput]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="436"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="59"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_1">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="218"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="50"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="20"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="128"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height7]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Back]"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_21]"/>
+          <Property Name="Height" Value="57"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="2"/>
+          <Property Name="PressedBitmap" Value="Source[local].Bitmap[Back]"/>
+          <Property Name="PressedBitmapSource" Value="SingleBitmap"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="423"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_21]"/>
+          <Property Name="Width" Value="64"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_2">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="100"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="60"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="178"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height6]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_3">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="150"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="110"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="228"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height5]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_4">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="205"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="160"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="278"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height4]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_5">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="260"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="210"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="328"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height3]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_6">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="310"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="270"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="378"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height2]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x0000101F" Name="Slider_7">
+          <Property Name="BackColor" Value="5"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="CurrentDatapoint" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="34"/>
+          <Property Name="Left" Value="217"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="370"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="320"/>
+          <Property Name="PitchLinesStyle" Value="Both"/>
+          <Property Name="SimulationValue" Value="20"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="ThumbBitmap" Value="Source[local].Bitmap[dardorojo]"/>
+          <Property Name="ThumbSpacing" Value="20"/>
+          <Property Name="Top" Value="433"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Visuuu_.Caliz51.height]"/>
+          <Property Name="Width" Value="258"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[Radio]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="93"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="296"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
+          <Property Name="Top" Value="17"/>
+          <Property Name="Width" Value="98"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_21">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[Dardo]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_2]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_8]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_4]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_9]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_10]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_11]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Slider_7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Slider_7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_2]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_2]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_4]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_5]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_3]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_5]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_6]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_6]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_7]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Slider_7]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Slider_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Slider_6]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_5]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_7]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Slider_1]"/>
+    <TabSeqItem Index="8" Value="Source[embedded].Layer[Default].Control[Slider_5]"/>
+    <TabSeqItem Index="9" Value="Source[embedded].Layer[Default].Control[Slider_2]"/>
+    <TabSeqItem Index="10" Value="Source[embedded].Layer[Default].Control[Slider_6]"/>
+    <TabSeqItem Index="11" Value="Source[embedded].Layer[Default].Control[Slider_7]"/>
+    <TabSeqItem Index="12" Value="Source[embedded].Layer[Default].Control[Slider_3]"/>
+    <TabSeqItem Index="13" Value="Source[embedded].Layer[Default].Control[Slider_4]"/>
+  </TabSequence>
+</Page>

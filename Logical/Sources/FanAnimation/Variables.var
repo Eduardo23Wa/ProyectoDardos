@@ -1,0 +1,5 @@
+VAR
+	BitmapGroup_1 : USINT;
+	WAIT : DWORD;
+	Visu : STRING[80] := 'Visu';
+END_VAR
